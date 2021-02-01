@@ -2,4 +2,4 @@ fba90c20ade62a2c9564a03eff93c0603ccdf238@ares.testnet.decentr.xyz:26656
 9479eef715892a18249350fcb1eeca0efc4c9354@hera.testnet.decentr.xyz:26656
 d44010452fec5cb0b9b314aa089f1082fbaed185@hermes.testnet.decentr.xyz:26656
 28d55428c88a870c7c1737a31369f1c43595e4cf@poseidon.testnet.decentr.xyz:26656
-8e14add2e93231a41fb3736a12203ee22ad0069c@zecdcdus.testnet.decentr.xyz:26656
+8e14add2e93231a41fb3736a12203ee22ad0069c@zeus.testnet.decentr.xyz:26656
