@@ -1,5 +1,5 @@
-fba90c20ade62a2c9564a03eff93c0603ccdf238@ares.testnet.decentr.xyz:26656
-9479eef715892a18249350fcb1eeca0efc4c9354@hera.testnet.decentr.xyz:26656
-d44010452fec5cb0b9b314aa089f1082fbaed185@hermes.testnet.decentr.xyz:26656
-28d55428c88a870c7c1737a31369f1c43595e4cf@poseidon.testnet.decentr.xyz:26656
-8e14add2e93231a41fb3736a12203ee22ad0069c@zeus.testnet.decentr.xyz:26656
+30e2a771fea301dda483ac1f90abd826f90765ef@ares.testnet.decentr.xyz:26656
+8fe44130287ed4172cad801f89b0dc65603e0755@hera.testnet.decentr.xyz:26656
+3ce39f8227dc76a184dd0bacf297cef05f6d9331@hermes.testnet.decentr.xyz:26656
+c437ded6d6c67b4fb660a12ae153e885abab5f66@poseidon.testnet.decentr.xyz:26656
+bbf1b11e99bcb46de8a839738e814deb1bcec104@zeus.testnet.decentr.xyz:26656
