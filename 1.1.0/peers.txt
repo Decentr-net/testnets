@@ -1,0 +1,5 @@
+77c8bddfa5715c9f1dba62e586ecf775490ec83b@ares.testnet.decentr.xyz:26656
+c550b6692b9122037a2e55dd4194e328033b3836@hera.testnet.decentr.xyz:26656
+6945cdeeeddf7f7cd3ae58cce9ee5dfa6811130f@hermes.testnet.decentr.xyz:26656
+a224755914665558c20a6cbd6eceeefc8e0bbe79@poseidon.testnet.decentr.xyz:26656
+4b63a3430e3a8f5824983ec4f8b3f136c215aed0@zeus.testnet.decentr.xyz:26656
