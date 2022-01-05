@@ -1,0 +1,633 @@
+{
+  "jsonrpc": "2.0",
+  "id": -1,
+  "result": {
+    "genesis": {
+      "genesis_time": "2021-12-20T23:12:56.648488Z",
+      "chain_id": "testnet-1.5.0",
+      "initial_height": "1",
+      "consensus_params": {
+        "block": {
+          "max_bytes": "22020096",
+          "max_gas": "-1",
+          "time_iota_ms": "1000"
+        },
+        "evidence": {
+          "max_age_num_blocks": "100000",
+          "max_age_duration": "172800000000000",
+          "max_bytes": "1048576"
+        },
+        "validator": {
+          "pub_key_types": [
+            "ed25519"
+          ]
+        },
+        "version": {}
+      },
+      "app_hash": "",
+      "app_state": {
+        "auth": {
+          "params": {
+            "max_memo_characters": "256",
+            "tx_sig_limit": "7",
+            "tx_size_cost_per_byte": "10",
+            "sig_verify_cost_ed25519": "590",
+            "sig_verify_cost_secp256k1": "1000"
+          },
+          "accounts": [
+            {
+              "@type": "/cosmos.auth.v1beta1.BaseAccount",
+              "address": "decentr1g3nxt7czcqzztwsrxfy5hxdkrcj8t7avp2lax4",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            {
+              "@type": "/cosmos.auth.v1beta1.BaseAccount",
+              "address": "decentr1gcmuju36a2h8e4yfay059dl689vuggqvnqfnau",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            {
+              "@type": "/cosmos.auth.v1beta1.BaseAccount",
+              "address": "decentr12v8zrheas65p4h0aamncgyj3kxkkrj2ved4w7e",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            {
+              "@type": "/cosmos.auth.v1beta1.BaseAccount",
+              "address": "decentr1wkrzge9ldj5w2vew63rna849j2uqwht668ukan",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            {
+              "@type": "/cosmos.auth.v1beta1.BaseAccount",
+              "address": "decentr1ddzpjdsupdpa0aq74ck0c94mxrhn942gwlwkq8",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ]
+        },
+        "bank": {
+          "params": {
+            "send_enabled": [],
+            "default_send_enabled": true
+          },
+          "balances": [
+            {
+              "address": "decentr1g3nxt7czcqzztwsrxfy5hxdkrcj8t7avp2lax4",
+              "coins": [
+                {
+                  "denom": "udec",
+                  "amount": "1500000000000"
+                }
+              ]
+            },
+            {
+              "address": "decentr1gcmuju36a2h8e4yfay059dl689vuggqvnqfnau",
+              "coins": [
+                {
+                  "denom": "udec",
+                  "amount": "1500000000000"
+                }
+              ]
+            },
+            {
+              "address": "decentr12v8zrheas65p4h0aamncgyj3kxkkrj2ved4w7e",
+              "coins": [
+                {
+                  "denom": "udec",
+                  "amount": "1500000000000"
+                }
+              ]
+            },
+            {
+              "address": "decentr1ddzpjdsupdpa0aq74ck0c94mxrhn942gwlwkq8",
+              "coins": [
+                {
+                  "denom": "udec",
+                  "amount": "1500000000000"
+                }
+              ]
+            },
+            {
+              "address": "decentr1wkrzge9ldj5w2vew63rna849j2uqwht668ukan",
+              "coins": [
+                {
+                  "denom": "udec",
+                  "amount": "1500000000000"
+                }
+              ]
+            }
+          ],
+          "supply": [
+            {
+              "denom": "udec",
+              "amount": "7500000000000"
+            }
+          ],
+          "denom_metadata": []
+        },
+        "capability": {
+          "index": "1",
+          "owners": []
+        },
+        "community": {
+          "params": {
+            "moderators": [
+              "decentr1g3nxt7czcqzztwsrxfy5hxdkrcj8t7avp2lax4",
+              "decentr1gcmuju36a2h8e4yfay059dl689vuggqvnqfnau",
+              "decentr12v8zrheas65p4h0aamncgyj3kxkkrj2ved4w7e",
+              "decentr1wkrzge9ldj5w2vew63rna849j2uqwht668ukan",
+              "decentr1ddzpjdsupdpa0aq74ck0c94mxrhn942gwlwkq8"
+            ],
+            "fixed_gas": {
+              "create_post": "100",
+              "delete_post": "100",
+              "set_like": "100",
+              "follow": "100",
+              "unfollow": "100"
+            }
+          },
+          "posts": [],
+          "likes": [],
+          "following": {}
+        },
+        "crisis": {
+          "constant_fee": {
+            "denom": "udec",
+            "amount": "1000"
+          }
+        },
+        "distribution": {
+          "params": {
+            "community_tax": "0.020000000000000000",
+            "base_proposer_reward": "0.010000000000000000",
+            "bonus_proposer_reward": "0.040000000000000000",
+            "withdraw_addr_enabled": true
+          },
+          "fee_pool": {
+            "community_pool": []
+          },
+          "delegator_withdraw_infos": [],
+          "previous_proposer": "",
+          "outstanding_rewards": [],
+          "validator_accumulated_commissions": [],
+          "validator_historical_rewards": [],
+          "validator_current_rewards": [],
+          "delegator_starting_infos": [],
+          "validator_slash_events": []
+        },
+        "evidence": {
+          "evidence": []
+        },
+        "feegrant": {
+          "allowances": []
+        },
+        "genutil": {
+          "gen_txs": [
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "hera",
+                      "identity": "",
+                      "website": "https://hera.testnet.decentr.xyz",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "decentr1gcmuju36a2h8e4yfay059dl689vuggqvnqfnau",
+                    "validator_address": "decentrvaloper1gcmuju36a2h8e4yfay059dl689vuggqvv0zlqt",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "63SS/pFnGWLU/extwJ3X5j+0t+XEiCaBQS0yj6SO2nQ="
+                    },
+                    "value": {
+                      "denom": "udec",
+                      "amount": "100000000000"
+                    }
+                  }
+                ],
+                "memo": "0f62835c8f29ddc5e4627e1cc3a0c49b51a75fbb@192.168.1.66:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "AsRUW6Bl0ahrYF5PJ345wwrAEieG36vc16uaaEYibCRw"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                }
+              },
+              "signatures": [
+                "K2wWhrgZ/RA0BcHjwuTDF7h1Z7UjQ69nP/LpC7aniTdlNtvV2ovuVT1BFVY53bkTHwYzd0468sBxKimosu0zMA=="
+              ]
+            },
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "zeus",
+                      "identity": "",
+                      "website": "https://zeus.testnet.decentr.xyz",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "decentr1g3nxt7czcqzztwsrxfy5hxdkrcj8t7avp2lax4",
+                    "validator_address": "decentrvaloper1g3nxt7czcqzztwsrxfy5hxdkrcj8t7av7953mz",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "Vxe2XiXVi4yfaccVfQz0t+mIoafGjeiaFKvJIvdvjfM="
+                    },
+                    "value": {
+                      "denom": "udec",
+                      "amount": "100000000000"
+                    }
+                  }
+                ],
+                "memo": "31a4f6481faeb909036a5f8b16ae228392cf7477@192.168.1.66:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "AkRWBOzb0e/u1fpDTeBwmXQVbehVbRO8sVh2sa3wAAFJ"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                }
+              },
+              "signatures": [
+                "KPgUM2lhnMTxqA5VRVX/GLdr3kYatcT4aO+d1A3Dfqp/pwnFIrnL5BjPbRBHRhFKWXglqXRmnwVQKUJ15AxjZg=="
+              ]
+            },
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "poseidon",
+                      "identity": "",
+                      "website": "https://poseidon.testnet.decentr.xyz",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "decentr12v8zrheas65p4h0aamncgyj3kxkkrj2ved4w7e",
+                    "validator_address": "decentrvaloper12v8zrheas65p4h0aamncgyj3kxkkrj2vxz7zrw",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "5Otf20ZTxPyjLhVH8VFyIxrD6t6G6i6/fHjubSk5GrM="
+                    },
+                    "value": {
+                      "denom": "udec",
+                      "amount": "100000000000"
+                    }
+                  }
+                ],
+                "memo": "678ab0c948edd05bb156aa758c9b363925701bde@192.168.1.66:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "AjW4TYcTl/HrN+oIRqFj1H+iQCV6honDkvInFDOowJZS"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                }
+              },
+              "signatures": [
+                "rGaZQYLDdgpU1/fsCo+THeci+dvPlqFa9htFV2kvjZ9ymYIdKV44EasOFWuHBNX0EpjOSQNNx6YPEMdwqHR5BA=="
+              ]
+            },
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "hermes",
+                      "identity": "",
+                      "website": "https://hermes.testnet.decentr.xyz",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "decentr1ddzpjdsupdpa0aq74ck0c94mxrhn942gwlwkq8",
+                    "validator_address": "decentrvaloper1ddzpjdsupdpa0aq74ck0c94mxrhn942g3s96as",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "Lu8EtdUr6Y6X9KCcYKWnL2lhysCylPTpr7aCpdFmxPU="
+                    },
+                    "value": {
+                      "denom": "udec",
+                      "amount": "100000000000"
+                    }
+                  }
+                ],
+                "memo": "bd69d64811ce2ae3919a85957f46beb845aead57@192.168.1.66:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "A8su9f+VF7ZtJlC5AEUIay/27UahI8MkoqkK7vNZuQLj"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                }
+              },
+              "signatures": [
+                "4m83HtZtLvELdthYvjqKKu8oGDUS+zbKsnP3famdDP9UbNYXuj0eKUR4N3XywojvQXzGQUadEG/aUgeKYmwOHQ=="
+              ]
+            },
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "ares",
+                      "identity": "",
+                      "website": "https://ares.testnet.decentr.xyz",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "decentr1wkrzge9ldj5w2vew63rna849j2uqwht668ukan",
+                    "validator_address": "decentrvaloper1wkrzge9ldj5w2vew63rna849j2uqwht69gh6qy",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "6zLgLpTQ1s+8L/sHB9hlxq/4s0/1n33si8S5/4Z2j98="
+                    },
+                    "value": {
+                      "denom": "udec",
+                      "amount": "100000000000"
+                    }
+                  }
+                ],
+                "memo": "f035c42bb1b3c6a3bce169e97527dcd3afa330c0@192.168.1.66:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "AmO0PhPwVTfFQ7rtmjDARWxbH+uOVMin70SKe06s4tg4"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                }
+              },
+              "signatures": [
+                "hQzWfuNBbJRdhhNjkSLuFsakZNut6eqVvJQcVMuK4859Hu5nXKqUKgbr6/vyMOy+3kUkL8YWz0DHCpsu0Vzvow=="
+              ]
+            }
+          ]
+        },
+        "gov": {
+          "starting_proposal_id": "1",
+          "deposits": [],
+          "votes": [],
+          "proposals": [],
+          "deposit_params": {
+            "min_deposit": [
+              {
+                "denom": "udec",
+                "amount": "10000000"
+              }
+            ],
+            "max_deposit_period": "172800s"
+          },
+          "voting_params": {
+            "voting_period": "172800s"
+          },
+          "tally_params": {
+            "quorum": "0.334000000000000000",
+            "threshold": "0.500000000000000000",
+            "veto_threshold": "0.334000000000000000"
+          }
+        },
+        "ibc": {
+          "client_genesis": {
+            "clients": [],
+            "clients_consensus": [],
+            "clients_metadata": [],
+            "params": {
+              "allowed_clients": [
+                "06-solomachine",
+                "07-tendermint"
+              ]
+            },
+            "create_localhost": false,
+            "next_client_sequence": "0"
+          },
+          "connection_genesis": {
+            "connections": [],
+            "client_connection_paths": [],
+            "next_connection_sequence": "0",
+            "params": {
+              "max_expected_time_per_block": "30000000000"
+            }
+          },
+          "channel_genesis": {
+            "channels": [],
+            "acknowledgements": [],
+            "commitments": [],
+            "receipts": [],
+            "send_sequences": [],
+            "recv_sequences": [],
+            "ack_sequences": [],
+            "next_channel_sequence": "0"
+          }
+        },
+        "mint": {
+          "minter": {
+            "inflation": "0.130000000000000000",
+            "annual_provisions": "0.000000000000000000"
+          },
+          "params": {
+            "mint_denom": "udec",
+            "inflation_rate_change": "0.130000000000000000",
+            "inflation_max": "0.200000000000000000",
+            "inflation_min": "0.070000000000000000",
+            "goal_bonded": "0.670000000000000000",
+            "blocks_per_year": "6311520"
+          }
+        },
+        "operations": {
+          "params": {
+            "supervisors": [
+              "decentr1g3nxt7czcqzztwsrxfy5hxdkrcj8t7avp2lax4",
+              "decentr1gcmuju36a2h8e4yfay059dl689vuggqvnqfnau",
+              "decentr12v8zrheas65p4h0aamncgyj3kxkkrj2ved4w7e",
+              "decentr1wkrzge9ldj5w2vew63rna849j2uqwht668ukan",
+              "decentr1ddzpjdsupdpa0aq74ck0c94mxrhn942gwlwkq8"
+            ],
+            "fixed_gas": {
+              "reset_account": "0",
+              "distribute_rewards": "0"
+            },
+            "min_gas_price": {
+              "denom": "udec",
+              "amount": "0.025000000000000000"
+            }
+          }
+        },
+        "params": null,
+        "slashing": {
+          "params": {
+            "signed_blocks_window": "100",
+            "min_signed_per_window": "0.500000000000000000",
+            "downtime_jail_duration": "600s",
+            "slash_fraction_double_sign": "0.050000000000000000",
+            "slash_fraction_downtime": "0.010000000000000000"
+          },
+          "signing_infos": [],
+          "missed_blocks": []
+        },
+        "staking": {
+          "params": {
+            "unbonding_time": "1814400s",
+            "max_validators": 100,
+            "max_entries": 7,
+            "historical_entries": 10000,
+            "bond_denom": "udec"
+          },
+          "last_total_power": "0",
+          "last_validator_powers": [],
+          "validators": [],
+          "delegations": [],
+          "unbonding_delegations": [],
+          "redelegations": [],
+          "exported": false
+        },
+        "token": {
+          "balances": {}
+        },
+        "transfer": {
+          "port_id": "transfer",
+          "denom_traces": [],
+          "params": {
+            "send_enabled": true,
+            "receive_enabled": true
+          }
+        },
+        "upgrade": {},
+        "vesting": {}
+      }
+    }
+  }
+}
